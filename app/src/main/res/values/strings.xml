@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Ramky App</string>
+    <string name="register_here">register here</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="sign_in">Sign In</string>
+    <string name="view_profile">View Profile</string>
+    <string name="error_in_log_in">Error in Log In</string>
+</resources>

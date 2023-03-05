@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".rules"
+    android:background="@drawable/gradient_drawable">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <ImageView
+            android:background="@drawable/ramkybg"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:text="Parking Rules"
+            android:textSize="35sp"
+
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:text="* The management shall not be liable for any loss or damage to the vehicle or its content while the vechile is parked inside the car park."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* Vechile entering the car park are subject to rules of the car park."
+            android:textSize="17sp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* The maximum speed limit within the car park is 10 kilometers per hour(km/h)."
+            android:textSize="17sp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* The car park security personnel will conduct routine inspection on all vehicles and their passengers before entering the car park. When there is a Red Alert status, thorough inspection of all vehicles entering the car park shall be conducted."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="70dp"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* Please report suspicious person, vehicle or activity."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* Vehicles are to be parked facing the wall."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* Double parking and parking along the driveways are strictly prohibited."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* All parked vehicles must have their engine switched off."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="70dp"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* There is a penalty charge for lost or damaged parking card/ticket on top of normal parking charges."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* For lost or damaged parking card/ticket, owner must show documents (OR/CR etc.) or other proof of ownership before they are allowed to drive the vehicle out of the car park."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="70dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* No vehicle shall be allowed entry without a parking card or ticket."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_marginLeft="70dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* No person is allowed to stay inside parked vehicle."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="70dp"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* No loitering inside the car park."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* No eating, drinking or smoking near parked vehicles or inside the car park."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="70dp"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* No form of repair is allowed inside the car park unless authorized by the management."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="25dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* No photography or video recording is allowed within the car park."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginLeft="70dp"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* No vehicle will be allowed to leave the car park without proper payment and return of the parking card/ticket."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_marginBottom="25dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:layout_marginLeft="70dp"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="* No vehicles are allowed to park within the car park exceeding 48 hours. Vehicles parked beyond 1 week will be considered as abandoned and reported to the relevant authorities unless permitted by the management."
+            android:textSize="17sp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginBottom="75dp"
+            android:layout_width="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:textColor="#052167"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

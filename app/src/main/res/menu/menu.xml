@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+    <item
+        android:id="@+id/menurates"
+        android:title="Rates"
+        android:icon="@drawable/rate"
+        app:showAsAction="always" >
+
+    </item>
+
+    <item
+        android:id="@+id/menurules"
+        android:icon="@drawable/rule"
+        android:title="Rules"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/menuprofile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        app:showAsAction="always"
+        />
+
+    <item
+
+        android:id="@+id/menulogout"
+        android:title="Log Out"
+        />
+    <item
+        android:id="@+id/menuexit"
+        android:title="Exit" />
+
+</menu>
